@@ -1,0 +1,35 @@
+{
+  "name": "gatsby-plugin-addsocialshare-share",
+  "description": "AddSocialShare social sharing plugin provides you beautiful buttons, sharing capabilities. (30+ buttons- Whatsapp, Facebook, Twitter, LinkedIn, Reddit, and many more...)",
+  "version": "1.0.0",
+  "author": "AddSocialShare Team",
+  "dependencies": {
+    "@babel/runtime": "^7.10.3",
+    "minimatch": "3.0.4"
+  },
+  "homepage": "https://addsocialshare.com/",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "social",
+    "share",
+    "sharing",
+    "facebook",
+    "twitter",
+    "whatsapp"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "gatsby": ">=2.0.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "scripts": {
+    "build": "babel src --out-dir . --ignore \"**/__tests__\"",
+    "watch": "babel -w src --out-dir . --ignore \"**/__tests__\""
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  }
+}
