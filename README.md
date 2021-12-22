@@ -1,57 +1,55 @@
-
 # gatsby-plugin-addsocialshare-share
 
 Addsocialshare sharing plugin supplies you beautiful buttons, sharing capabilities. (30+ buttons- Whatsapp, Facebook, Twitter, LinkedIn, Reddit, and lots of more...)
 
 ## Install
- 
+
 `npm i --save gatsby-plugin-addsocialshare-share`
- 
 
 ## How to use
- 
 
 ```javascript
-
 // In your gatsby-config.js
 
 module.exports = {
-	plugins: [{
-		resolve: `gatsby-plugin-addsocialshare-share`,
-		options: {
-            id:".ass_interface"
-        }
-	}],
-}
-
+  plugins: [
+    {
+      resolve: `gatsby-plugin-addsocialshare-share`,
+      options: {
+        id: ".ass_interface",
+      },
+    },
+  ],
+};
 ```
 
-
 ## code with complete options
-```javascript
 
+```javascript
 // In your gatsby-config.js
 
 module.exports = {
-	plugins: [{
-		resolve: `gatsby-plugin-addsocialshare-share`,
-		options: {
-            size:48,
-            //providers:{"facebook":"Facebook","linkedin":"Linkedin","pinterest":"Pinterest","twitter":"Twitter","cloudshare":"Cloud Share"},
-            //corners:"5%",
-            //bgcolor:"#000000",
-            interfacetype:"floating",//inline,floating
-            topoffset:"20%",//work only floating interface
-            id:".ass_interface",
-            alignment_desktop:"left",//left,right,hide
-            alignment_mobile:"bottom"//top,bottom,hide          
-        }
-	}],
-}
-
+  plugins: [
+    {
+      resolve: `gatsby-plugin-addsocialshare-share`,
+      options: {
+        size: 48,
+        //providers:{"facebook":"Facebook","linkedin":"Linkedin","pinterest":"Pinterest","twitter":"Twitter","cloudshare":"Cloud Share"},
+        //corners:"5%",
+        //bgcolor:"#000000",
+        interfacetype: "floating", //inline,floating
+        topoffset: "20%", //work only floating interface
+        id: ".ass_interface",
+        alignment_desktop: "left", //left,right,hide
+        alignment_mobile: "bottom", //top,bottom,hide
+      },
+    },
+  ],
+};
 ```
 
 ## Description
+
 AddSocialShare social sharing plugin supplies you beautiful buttons, sharing capabilities, and analytics. (20+ buttons- Whatsapp, Facebook, Twitter, LinkedIn, Reddit, and lots of more...)
 
 #### SHARING
@@ -76,58 +74,54 @@ SOCIAL SHARE
 
 Quickly upload beautiful and highly customizable social proportion buttons with simples set up steps. Choose from most popular social networks and actions.
 
--   Facebook Share Buttons    
--   Twitter Share Buttons    
--   LinkedIn Share Buttons    
--   WhatsApp    
--   Mix Share Buttons    
--   Email : Makes it simple to proportion via Gmail, Yahoo or another electronic mail app
--   Print : Easily permit your guests to print your content    
--   Copy Link : Allows your guests to copy the present page URL in a single click on and briefly proportion with friends.    
--   Display person and/or total proportion counts    
--   Easily edit proportion button labels and maximize engagement    
--   Display different proportion buttons for mobile/desktop screens    
--   Page-level keep an eye on
-    
+- Facebook Share Buttons
+- Twitter Share Buttons
+- LinkedIn Share Buttons
+- WhatsApp
+- Mix Share Buttons
+- Email : Makes it simple to proportion via Gmail, Yahoo or another electronic mail app
+- Print : Easily permit your guests to print your content
+- Copy Link : Allows your guests to copy the present page URL in a single click on and briefly proportion with friends.
+- Display person and/or total proportion counts
+- Easily edit proportion button labels and maximize engagement
+- Display different proportion buttons for mobile/desktop screens
+- Page-level keep an eye on
+
 Grow your social following with social practice buttons and fan counters. Easily permit users to practice your logo throughout your most well-liked social media channel.
 
--   Facebook
--   Twitter    
--   Pinterest    
--   WhatsApp    
--   Tumblr    
--   Mix    
--   Instagram    
--   Display counters    
--   Plenty of customization options
-    
+- Facebook
+- Twitter
+- Pinterest
+- WhatsApp
+- Tumblr
+- Mix
+- Instagram
+- Display counters
+- Plenty of customization options
 
 #### SHARE BUTTONS PLACEMENT
 
 Choose the place you want to display your proportion buttons:
 
--   Inline proportion buttons: proportion buttons ahead of content, proportion buttons after content, or both ahead of & after content    
--   Floating Sidebar Share Buttons : Vertical proportion bar, mounted to the left or proper with plenty customization choices available to the proportion buttons
--   Popup Share Buttons : Show proportion buttons in the pop-up and position pop-u.s.anywhere as according to your want on your site
-    
+- Inline proportion buttons: proportion buttons ahead of content, proportion buttons after content, or both ahead of & after content
+- Floating Sidebar Share Buttons : Vertical proportion bar, mounted to the left or proper with plenty customization choices available to the proportion buttons
+- Popup Share Buttons : Show proportion buttons in the pop-up and position pop-u.s.anywhere as according to your want on your site
 
 #### HIGHLY CUSTOMIZABLE
 
 We perceive all websites have their own style so we made it simple to customise your proportion buttons to check your site's design.
 
--   Change proportion buttons order    
--   Change proportion buttons labels    
--   Show/Hide proportion buttons labels    
--   Multiple proportion button shapes    
--   Show proportion count for each social network    
--   Show total proportion count    
--   Disable proportion buttons on selected person pages
-    
+- Change proportion buttons order
+- Change proportion buttons labels
+- Show/Hide proportion buttons labels
+- Multiple proportion button shapes
+- Show proportion count for each social network
+- Show total proportion count
+- Disable proportion buttons on selected person pages
 
 #### LIGHTWEIGHT & FAST LOAD
 
--   Loads lighting fixtures rapid so it doesn't slow down your site
-    
+- Loads lighting fixtures rapid so it doesn't slow down your site
 
 #### FULLY RESPONSIVE & RETINA READY
 
