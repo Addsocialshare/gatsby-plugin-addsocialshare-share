@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-addsocialshare-share",
   "description": "AddSocialShare social sharing plugin provides you beautiful buttons, sharing capabilities. (30+ buttons- Whatsapp, Facebook, Twitter, LinkedIn, Reddit, and many more...)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "AddSocialShare Team",
   "dependencies": {
     "@babel/runtime": "^7.10.3",
